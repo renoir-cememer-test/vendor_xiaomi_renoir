@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/renoir/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/renoir/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/renoir/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
     vendor/xiaomi/renoir/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/renoir/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/renoir/proprietary/vendor/etc/qdcm_calib_data_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml \
@@ -483,7 +482,6 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.qti.chi.override \
     fingerprint.fpc.lahaina \
-    vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     libAF \
     libBlinkStub \
     libFlickerDet \
@@ -622,8 +620,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.cameraperf@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.1 \
     bm2n06 \
     bm2n08 \
     bm2n13 \
@@ -672,9 +668,7 @@ PRODUCT_PACKAGES += \
     misound_karaokemix_res \
     misound_res_headphone \
     misound_res_spk \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
     batterysecret \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service \
     init.qcom.sensors \
     sensors.qti \
     sscrpcd
