@@ -327,13 +327,9 @@ PRODUCT_PACKAGES += \
     libaudiocloudctrl \
     libaudioparsers \
     libaudioroute_ext \
-    libbatterylistener \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     libqtigef \
     libresampler \
-    libsndmonitor \
     libvideoNS \
     HDR10plus \
     com.qti.actuator.renoir_ofilm_s5kgw3_dw9800_wide \
