@@ -11292,6 +11292,40 @@ cc_prebuilt_library_shared {
     device_specific: true,
 }
 
+cc_prebuilt_library_shared {
+    name: "libssrec_odm",
+    stem: "libssrec",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libssrec.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libprocessgroup",
+                "libaudio_log_utils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    device_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "batterysecret",
     owner: "xiaomi",
